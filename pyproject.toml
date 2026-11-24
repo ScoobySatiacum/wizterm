@@ -8,8 +8,10 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "psutil>=7.2.2",
     "pyqt6>=6.12.1",
     "pyte>=0.8.2",
+    "pywinpty>=3.1.2",
 ]
 
 [project.scripts]
